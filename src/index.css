@@ -4,11 +4,12 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --color-azulEscuro: #3E14D4;
   --color-cyan: #1D70DE;
-  --color-purple: #32065c;
+  --color-purple: #11053B;
   --color-destaque: #0C1524;
   --color-menu: #1252A7;
   --color-azul: #11053B;
-  --color-lavanda: #E6E6FA;
+  --color-violet: #7928B7;
   --font-montserrat: "Montserrat", "sans-serif";
 }
