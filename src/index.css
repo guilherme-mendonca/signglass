@@ -4,7 +4,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-azulEscuro: #3E14D4;
+  --color-azulEscuro: #081A30A6;
   --color-cyan: #1D70DE;
   --color-purple: #11053B;
   --color-destaque: #0C1524;

@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import oculosNeon from "./assets/oculosNeon.png";
 import maoPaz from "./assets/maoPaz.png";
+  
 
 export function Home() {
     const backgroundStyle = {
@@ -24,9 +25,11 @@ export function Home() {
                     </h1>
 
                     <div className="mt-10">
-                        <a
+                        <a 
                             href="/download"
-                            className="bg-violet-600 text-2xl py-6 px-12 rounded-full shadow-lg shadow-violet-500/50 hover:bg-violet-700 hover:scale-105 transition-all duration-300"
+                            className="relative inline-block px-12 py-6 text-white font-bold text-lg rounded-full
+                            bg-violet-600 shadow-[0_0_25px_8px_rgba(137,207,240,0.6)]
+                            hover:scale-105 transition-transform duration-300"
                         >
                             Baixe Agora o App
                         </a>
