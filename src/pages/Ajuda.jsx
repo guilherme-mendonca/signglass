@@ -6,26 +6,26 @@ export function Ajuda() {
       <Header />
       <div className="min-h-dvh bg-[#1D70DE] dark:bg-purple text-white flex flex-col items-center px-6 py-8 space-y-6">
 
-        <h1 className="font-montserrat font-semibold text-lg ">
-        Instruções para usar o óculos <br/> Não é complicado!
+        <h1 className="text-center font-montserrat font-semibold text-lg text-[23px]">
+          Instruções para usar o óculos <br /> Não é complicado! 
         </h1>
         {/* Passos */}
         <div className="space-y-4 text-center text-sm font-medium max-w-xs">
-          <p>
-            <span className="font-bold">Primeiro passo:</span> Coloque o SignGlass e
+          <p className="text-[18px]">
+            <span className="font-bold text-[20px]">Primeiro passo:</span> Coloque o SignGlass e
             envolva o equipamento extra na cintura.
           </p>
-          <p>
-            <span className="font-bold">Segundo passo:</span> Ligue o SignGlass e
+          <p className="text-[18px]">
+            <span className="font-bold text-[20px]">Segundo passo:</span> Ligue o SignGlass e
             espere ele fazer os ajustes iniciais.
           </p>
-          <p>
-            <span className="font-bold">Terceiro passo:</span> Olhe para o falante
+          <p className="text-[18px]">
+            <span className="font-bold text-[20px]">Terceiro passo:</span> Olhe para o falante
             de libras e entenda tudo com tradução em tempo real!
           </p>
         </div>
         {/* Chamada extra */}
-        <p className="text-center text-sm font-semibold max-w-xs">
+        <p className="text-center text-sm font-semibold max-w-xs text-[18px]">
           Saiba melhor no vídeo abaixo ou no link abaixo!
         </p>
         {/* Vídeo simples */}
@@ -44,7 +44,7 @@ export function Ajuda() {
           href="https://youtu.be/7nMsw5twDLs?si=s-rIpTSchL7B-yJ4"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline text-white text-sm"
+          className="underline text-white text-sm text-[16px]"
         >
           Vídeo passo a passo do SignGlass
         </a>

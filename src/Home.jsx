@@ -15,8 +15,10 @@ export function Home() {
     };
 
     return (
+        <>
+                    <Header />
         <main className="bg-cyan dark:bg-purple text-white font-montserrat font-bold" style={backgroundStyle}>
-            <Header />
+
             
             <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-8 lg:p-16 gap-12">
                 <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:w-1/2">
@@ -62,5 +64,6 @@ export function Home() {
                 </div>
             </section>
         </main>
+        </>
     );
 }

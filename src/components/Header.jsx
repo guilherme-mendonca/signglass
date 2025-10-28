@@ -44,7 +44,7 @@ export function Header() {
 
   // Header arrumado não mecha
   return (
-    <header className={`sticky top-0 z-50 w-full transition-transform duration-300 ease-in-out bg-azulEscuro dark:bg-purple ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+    <header className={`sticky top-0 z-50 w-full transition-transform duration-300 ease-in-out bg-azul2 dark:bg-purple2 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="container mx-auto flex justify-between items-center p-4">
 
 
